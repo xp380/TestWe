@@ -17,7 +17,7 @@ const BookDescription = (props) => {
           Date de sortie:{""}
           {moment(bookData.bookData.released).format("DD/MM/YYYY")}
         </div>
-        <h4 className="resume">{bookData.bookData.overview}</h4>
+
         <Like bookData={bookData} />
       </div>
     </div>
