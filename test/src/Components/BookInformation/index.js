@@ -4,7 +4,7 @@ import { CloseCircleOutlined } from "@ant-design/icons";
 import BookDescription from "../../Container/BookDescription";
 import "./BookInformation.css";
 
-const MovieInformation = (props) => {
+const BookInformation = (props) => {
   const { visible, setOpen, bookData } = props;
   const modalbody = {
     backgroundColor: "#212121",
@@ -36,4 +36,4 @@ const MovieInformation = (props) => {
   );
 };
 
-export default MovieInformation;
+export default BookInformation;

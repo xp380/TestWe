@@ -12,7 +12,7 @@ const FavoriteLike = (props) => {
       {alreadyLiked ? "Retirer de ma liste" : "Ajouter à ma liste"}
       <span className="icon">
         <Button
-          onClick={() => (alreadyLiked ? removeBook(data.id) : addBook(data))}
+          onClick={() => (alreadyLiked ? removeBook(data.isbn) : addBook(data))}
           icon={alreadyLiked ? <MinusCircleOutlined /> : <PlusOutlined />}
         />
       </span>

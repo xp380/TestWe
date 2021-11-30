@@ -1,0 +1,20 @@
+.test {
+  line-height: 2;
+  color: white;
+}
+
+.designclose {
+  color: white;
+  font-size: 30px;
+}
+
+.size {
+  width: 340px;
+  height: 600px;
+  margin-right: 80px;
+}
+
+.designCard {
+  width: 410px;
+  height: 600px;
+}

@@ -11,11 +11,15 @@ const BookDescription = (props) => {
       <div className="marge">
         <h4 className="titre">{bookData.bookData.name}</h4>
         <div className="date">
-          Nombre de pages:{bookData.bookData.numberOfPages}
-        </div>
-        <div className="date">
-          Date de sortie:{""}
-          {moment(bookData.bookData.released).format("DD/MM/YYYY")}
+          <span>
+            Auteur:{bookData.bookData.authors} <br />
+            Nombre de pages:{bookData.bookData.numberOfPages} <br />
+            Date de sortie:{""}
+            {moment(bookData.bookData.released).format("DD/MM/YYYY")} <br />
+            Pays: {bookData.bookData.country}
+            <br />
+            Personnages: {bookData.bookData.characters}
+          </span>
         </div>
 
         <Like bookData={bookData} />

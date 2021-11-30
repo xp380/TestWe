@@ -37,7 +37,7 @@ export const BookReducer = (state = initialState, action) => {
       };
     case REMOVE_FAVORITE_BOOKS:
       const filterFavorite = state.books_liked.filter(
-        (data) => data.id !== action.payload
+        (data) => data.isbn !== action.payload
       );
       return {
         ...state,

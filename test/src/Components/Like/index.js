@@ -13,7 +13,7 @@ const Like = (props) => {
       <span className="icon">
         <Button
           onClick={() =>
-            alreadyLiked ? removeBook(bookData.id) : addBook(bookData)
+            alreadyLiked ? removeBook(bookData.isbn) : addBook(bookData)
           }
           icon={alreadyLiked ? <MinusCircleOutlined /> : <PlusOutlined />}
         />
