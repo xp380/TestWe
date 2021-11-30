@@ -9,9 +9,6 @@ import "./MainPage.css";
 const { Content, Footer } = Layout;
 const MainPage = (props) => {
   const { all_books, apiBooks, favorite_books } = props;
-
-  console.log("demo", all_books);
-  console.log("pkp", favorite_books);
   useEffect(() => {
     apiBooks();
   }, []);

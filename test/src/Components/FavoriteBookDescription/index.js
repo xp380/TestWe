@@ -5,7 +5,6 @@ import moment from "moment";
 
 const FavoriteBookDescription = (props) => {
   const { data } = props;
-  console.log("fghyu", data);
   return (
     <div className="micro">
       <div className="marge">

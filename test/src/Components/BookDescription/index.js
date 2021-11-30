@@ -21,7 +21,6 @@ const BookDescription = (props) => {
             Personnages: {bookData.bookData.characters}
           </span>
         </div>
-
         <Like bookData={bookData} />
       </div>
     </div>
