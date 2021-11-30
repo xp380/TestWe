@@ -1,0 +1,9 @@
+export const START_BOOKS = "START_BOOKS";
+
+export const SUCCESS_BOOKS = "SUCCESS_BOOKS";
+
+export const ERROR_BOOKS = "ERROR_BOOKS";
+
+export const ADD_FAVORITE_BOOKS = "ADD_FAVORITE_BOOKS";
+
+export const REMOVE_FAVORITE_BOOKS = "REMOVE_FAVORITE_BOOKS";
